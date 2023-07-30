@@ -20,6 +20,9 @@ class MovieSlider extends StatelessWidget {
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
           ),
+          const SizedBox(
+            height: 5,
+          ),
           Expanded(
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
